@@ -1,6 +1,7 @@
 import './App.css';
 import elephant from "./images/elephant.jpeg";
 
+
 const imageData = ()=>{
   let data = [
     {
@@ -24,7 +25,29 @@ const imageData = ()=>{
 }
 
 function App() {
-  // code here
+
+  let image_Arr = imageData()
+
+  return(
+    
+  <div>
+      <h1>Kalvium Gallery</h1>
+      <div className='Grid' >
+        {
+          image_Arr.map(elem=>{
+          return(
+          <div className='photo-grid' >
+            <img src={image_Arr[0].img} id='image' className='image' alt="" />
+          </div>
+          )
+        })
+      }
+
+      </div>
+  </div>
+  )
 }
+
+
 
 export default App;
