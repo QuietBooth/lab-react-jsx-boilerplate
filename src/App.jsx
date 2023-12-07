@@ -1,7 +1,6 @@
 import './App.css';
 import elephant from "./images/elephant.jpeg";
 
-
 const imageData = ()=>{
   let data = [
     {
@@ -25,9 +24,6 @@ const imageData = ()=>{
 }
 
 function App() {
-
-  let image_Arr = imageData()
-
   let image_arr = imageData();
   console.log(image_arr)
 
@@ -45,8 +41,7 @@ function App() {
       </div>
     </>
   )
+
 }
-
-
 
 export default App;
