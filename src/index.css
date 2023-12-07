@@ -12,19 +12,3 @@ code {
     monospace;
 }
 
-.Grid{
-  text-align: center;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  column-gap: 30px;
-  row-gap: 30px;
-}
-
-.photo-grid>img{
-  width:100%;
-}
-
-h1{
-  text-align: center;
-}
