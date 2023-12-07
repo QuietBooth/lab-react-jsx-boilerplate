@@ -1,1 +1,12 @@
-/* add your styles here */
+.heading{
+    text-align: center;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 5vh 1vw;
+}
+.images img{
+    width: 48vw;
+}
